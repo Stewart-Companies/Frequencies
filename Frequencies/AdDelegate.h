@@ -8,14 +8,11 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-#import "GADBannerView.h"
+@import GoogleMobileAds;
 #import "ViewController.h"
 #import <StoreKit/StoreKit.h>
 #import <Security/Security.h>
-#import "GADInterstitial.h"
 #import "ViewController.h"
-#import "GADBannerViewDelegate.h"
-#import "GADRequest.h"
 #import "LeadBoltOverlay.h"
 #import <RevMobAds/RevMobAds.h>
 #import "NavigationController.h"

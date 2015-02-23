@@ -8,6 +8,7 @@
 #import <UIKit/UIKit.h>
 
 #import "GADRequest.h"
+#import <GoogleMobileAds/GADRequest.h>
 
 @class GADCustomEventExtras;
 

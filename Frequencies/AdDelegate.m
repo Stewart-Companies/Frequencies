@@ -188,7 +188,7 @@ static bool adIsLoaded;
 	
 	if ([AdDelegate devMode])
 	{
-	request.testDevices = [NSArray arrayWithObjects:GAD_SIMULATOR_ID,@"a49c8a1efbe5e25bf6f3a4cc46b32044",@"d9239ec43d90594953fb81925ce26522",nil];
+
 	}
 	
 	return request;

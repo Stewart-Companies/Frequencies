@@ -10,7 +10,7 @@
 #import <iAd/iAd.h>
 #import <AVFoundation/AVAudioPlayer.h>
 #import "AudioToolBox/AudioToolBox.h"
-#import "GADBannerView.h"
+@import GoogleMobileAds;
 #import <AVFoundation/AVAudioSession.h>
 #import "Player.h"
 #import "GoogleAnalytics.h"
