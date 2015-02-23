@@ -198,10 +198,10 @@ static bool adIsLoaded;
 -(void)adViewDidReceiveAd:(GADBannerView *)view {
 	NSLog(@"Received banner ad.");
 	_receivedBannerAd = YES;
-	if ([view.mediatedAdView isKindOfClass:[GADBannerView class]]) {
+	if ([view.adNetworkClassName isKindOfClass:[GADBannerView class]]) {
 		// The AdMob banner ads scroll vertically if you drag your finger across them and it looks lame.
 		// This disables that.
-		[self preventGADBannerViewBounceScrolling:(GADBannerView *) view.mediatedAdView];
+		[self preventGADBannerViewBounceScrolling:(GADBannerView *) view.adNetworkClassName];
 	}
 
 	[self showBannerAd:view];
