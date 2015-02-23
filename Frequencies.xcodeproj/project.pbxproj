@@ -114,7 +114,6 @@
 		047CCC05194225C4002C14B7 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 0446E8A8174CE22A0074754A /* Player.m */; };
 		047EFAF9178C4B8C005C612A /* ipad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047EFAFB178C4B8C005C612A /* ipad.storyboard */; };
 		0487AC6816717E6700E330BE /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0487AC6716717E6700E330BE /* AdSupport.framework */; };
-		0490B0C4194A76C800D127F0 /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0490B0C2194A76C800D127F0 /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		0490B0DB194B2B3B00D127F0 /* libLeadboltOverlay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0490B0DA194B2B3B00D127F0 /* libLeadboltOverlay.a */; };
 		0490B0DD194B2C9F00D127F0 /* libAdmobLeadbolt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0490B0DC194B2C9F00D127F0 /* libAdmobLeadbolt.a */; };
 		0490B1EA194B3FD500D127F0 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0490B1E9194B3FD500D127F0 /* libicucore.dylib */; };
@@ -359,8 +358,6 @@
 		0485741217E00B9E00F096EB /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0485741317E019D500F096EB /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0487AC6716717E6700E330BE /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
-		0490B0C1194A76C800D127F0 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
-		0490B0C2194A76C800D127F0 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
 		0490B0C3194A76C800D127F0 /* LeadboltOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeadboltOverlay.h; sourceTree = "<group>"; };
 		0490B0DA194B2B3B00D127F0 /* libLeadboltOverlay.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libLeadboltOverlay.a; path = Libraries/libLeadboltOverlay.a; sourceTree = "<group>"; };
 		0490B0DC194B2C9F00D127F0 /* libAdmobLeadbolt.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAdmobLeadbolt.a; path = Libraries/libAdmobLeadbolt.a; sourceTree = "<group>"; };
@@ -754,8 +751,6 @@
 		0490B0C0194A76C800D127F0 /* Leadbolt */ = {
 			isa = PBXGroup;
 			children = (
-				0490B0C1194A76C800D127F0 /* JSONKit.h */,
-				0490B0C2194A76C800D127F0 /* JSONKit.m */,
 				0490B0C3194A76C800D127F0 /* LeadboltOverlay.h */,
 			);
 			path = Leadbolt;
@@ -1092,7 +1087,6 @@
 				040DA6A1145D890B0097E3F9 /* ChildrenView.m in Sources */,
 				040DA6A6145D9A8C0097E3F9 /* AnimalView.m in Sources */,
 				046934A01960BCFB008ABAF5 /* RevMobCustomEventInterstitial.m in Sources */,
-				0490B0C4194A76C800D127F0 /* JSONKit.m in Sources */,
 				040DA711145E10CA0097E3F9 /* AboutView.m in Sources */,
 				0464C7861946359100EDCC70 /* iVersion.m in Sources */,
 				040DA71A145E14AD0097E3F9 /* AdvancedView.m in Sources */,
