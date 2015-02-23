@@ -1,0 +1,18 @@
+/*
+ Localizable.strings
+ FrequenciesPro
+ 
+ Translated by ICanLocalize
+ 
+*/
+
+/* Normal Test= “Version %@” */
+"SUPPORTVERSION" = "Versione %@";
+/* Normal Test= “Describe your issue: \n\n\n\n\n\n\n Device: %@\niOS: %@\nApp Version: %@” */
+"SUPPORTMESSAGE" = "Descrivi il problema: \n\n\n\n\n\n\n Dispositivo: %@\niOS: %@\nVersione dell'app: %@";
+/* Ringtones */
+"RINGTONEFAILTITLE" = "Oh oh...";
+"RINGTONEFAILMESSAGE" = "Si è verificato un errore. Contatta il Supporto all'indirizzo support@FrequenciesPro.com.";
+"RINGTONESUCCESSTITLE" = "Operazione completata!";
+"RINGTONESUCCESSMESSAGE" = "Ora la suoneria è disponibile tramite la funzione Condivisione documenti di iTunes. Accedi al tuo computer, scarica il file e trascinalo nella Libreria. Potrai poi sincronizzare la suoneria con il tuo iPhone.";
+"RINGTONEALERTDISMISS" = "Ignora";

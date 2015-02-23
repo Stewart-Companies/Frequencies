@@ -1,0 +1,60 @@
+
+//Home Screen
+
+/* Class = "IBUIButton"; normalTitle = "Children"; ObjectID = "Qi8-pG-Otz"; */
+"Qi8-pG-Otz.normalTitle" = "Kinder";
+
+/* Class = "IBUIButton"; normalTitle = "Animals"; ObjectID = "YzT-z0-Fnf"; */
+"YzT-z0-Fnf.normalTitle" = "Tiere";
+
+/* Class = "IBUIButton"; normalTitle = "Advanced"; ObjectID = "PMi-b8-JaY"; */
+"PMi-b8-JaY.normalTitle" = "Erfahrene";
+
+
+//Children Screen
+
+/* Class = "IBUINavigationItem"; title = "Children"; ObjectID = "26A-Vd-odw"; */
+"26A-Vd-odw.title" = "Kinder";
+
+/* Class = "IBUILabel"; text = " Pulse"; ObjectID = "JBs-OI-L96"; */
+"JBs-OI-L96.text" = " Pulse";
+
+/* Class = "IBUILabel"; text = "- - - - - - - - - - - - - - - - - - - - - - - - Age - - - - - - - - - - - - - - - - - - - - - - - -"; ObjectID = "z8E-bh-W3P"; */
+"z8E-bh-W3P.text" = "- - - - - - - - - - - - - - - - - - - - - - - Alter - - - - - - - - - - - - - - - - - - - - - - -";
+
+
+//Animals Screen
+
+/* Class = "IBUINavigationItem"; title = "Animals"; ObjectID = "wEy-eC-5Xa"; */
+"wEy-eC-5Xa.title" = "Tiere";
+
+/* Class = "IBUILabel"; text = "Humans can hear up to 23 kHz. Because of this, speaker manufacturers do not bother to make speakers that play sounds higher than 21 kHz. According to our sources, children under 13 are the only age group that can hear this tone, along with most small-sized animals such as cats and dogs. The button below plays this tone."; ObjectID = "oNm-V8-hR5"; */
+"oNm-V8-hR5.text" = "Menschen können bis zu 23kHz hören. Aus diesem Grund bemühen sich Lautsprecherhersteller oft nicht, dass ihre Lautsprecher Töne über 21kHz wiedergeben. Unseren Quellen nach, sind Kinder unter 13 Jahren die einzigen, die, zusammen mit den meisten kleinen Tieren wie Katzen oder Hunden, diesen Ton hören können. Die Schaltfläche unten spielt diesen Ton ab.";
+
+/* Class = "IBUIButton"; normalTitle = "Pulse"; ObjectID = "QMV-os-JM9"; */
+"QMV-os-JM9.normalTitle" = "Pulse";
+
+
+//Advanced
+
+/* Class = "IBUINavigationItem"; title = "Advanced"; ObjectID = "j6q-Re-jYD"; */
+"j6q-Re-jYD.title" = "Erfahrene";
+
+/* Class = "IBUILabel"; text = " Pulse"; ObjectID = "Mtm-Rw-18D"; */
+"Mtm-Rw-18D.text" = " Pulse";
+
+
+//About
+
+/* Class = "IBUINavigationItem"; title = "About"; ObjectID = "C9w-Y5-HYM"; */
+"C9w-Y5-HYM.title" = "Über";
+
+/* Class = "IBUILabel"; text = "© Stewart Companies Corp 2014.
+ All rights reserved."; ObjectID = "bE4-wr-CET"; */
+"bE4-wr-CET.text" = "© Stewart Companies Corp 2014.\nAlle Rechte vorbehalten.";
+
+/* Class = "IBUILabel"; text = "Translated by Johnny Appleseed."; ObjectID = "2Fb-5f-PXr"; */
+"2Fb-5f-PXr.text" = "Deutsche Übersetzung von Linus Wagner.";
+
+/* Class = "IBUIButton"; normalTitle = "Support"; ObjectID = "dWJ-yg-aoU"; */
+"dWJ-yg-aoU.normalTitle" = "Support";

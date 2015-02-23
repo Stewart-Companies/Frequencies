@@ -1,0 +1,63 @@
+//    Version 5.0
+//
+//    iphone.strings (English)
+//
+//    Translated by ICanLocalize
+//    Copyright © 2015 Stewart Companies Corp.
+//
+
+
+// ViewController
+/* Class = "IBUIButton"; normalTitle = "Children"; ObjectID = "T7m-qk-iyn"; */
+"T7m-qk-iyn.normalTitle" = "어린이";
+/* Class = "IBUIButton"; normalTitle = "Animals"; ObjectID = "W4e-Fd-y1r"; */
+"W4e-Fd-y1r.normalTitle" = "동물";
+/* Class = "IBUIButton"; normalTitle = "Advanced"; ObjectID = "a5m-SK-vpu"; */
+"a5m-SK-vpu.normalTitle" = "고급";
+/* Class = "IBUIButton"; normalTitle = "Ringtones"; ObjectID = "wbH-qQ-isP"; */
+"wbH-qQ-isP.normalTitle" = "벨소리";
+
+
+//ChildrenView
+/* Class = "IBUINavigationItem"; title = "Children"; ObjectID = "oy6-5k-1Ae"; */
+"oy6-5k-1Ae.title" = "어린이";
+/* Class = "IBUILabel"; text = "- - - - - - - - - - - - - - - - - - - - Age - - - - - - - - - - - - - - - - - - - -"; ObjectID = "3lc-9D-f9W"; */
+"3lc-9D-f9W.text" = "- - - - - - - - - - - - - - - - - - - - 나이 - - - - - - - - - - - - - - - - - - - -";
+/* Class = "IBUILabel"; text = " Pulse"; ObjectID = "PkU-or-obI"; */
+"H3q-b6-uA9.text" = " 펄스";
+
+
+//AnimalView
+/* Class = "IBUINavigationItem"; title = "Animals"; ObjectID = "Leh-Yo-6tw"; */
+"Leh-Yo-6tw.title" = "동물";
+/* Class = "IBUILabel"; text = "Humans can hear up to 23 kHz. Because of this, speaker manufacturers do not bother to make speakers that play sounds higher than 21 kHz. According to our sources, children under 13 are the only age group that can hear this tone, along with most small-sized animals such as cats and dogs. The button below plays this tone."; ObjectID = "dqV-EY-PhN"; */
+"dqV-EY-PhN.text" = "사람은 23 kHz까지의 소리를 들을 수 있습니다. 이 때문에 스피커 제조업체들은 21 kHz보다 높은 소리를 재생하는 스피커를 만들지 않습니다. 저희의 정보에 의하면 13세 미만의 어린이는 이 소리를 들을 수 있는 유일한 연령 집단이며 고양이, 개와 같은 대부분의 작은 동물들이 이 소리를 들을 수 있습니다. 아래의 버튼을 누르면 이 소리가 재생됩니다.";
+/* Class = "IBUIButton"; normalTitle = "Pulse"; ObjectID = "ifC-wU-mM0"; */
+"ifC-wU-mM0.normalTitle" = "펄스";
+/* Class = "IBUIButton"; normalTitle = "Stop"; ObjectID = "cpW-Rp-7Fx"; */
+"cpW-Rp-7Fx.normalTitle" = "중지";
+
+
+//AdvancedView
+/* Class = "IBUINavigationItem"; title = "Advanced"; ObjectID = "A7s-dK-hKC"; */
+"A7s-dK-hKC.title" = "고급";
+/* Class = "IBUILabel"; text = "Pulse"; ObjectID = "pX8-Lo-8nR"; */
+"pX8-Lo-8nR.text" = "펄스";
+/* Class = "IBUIButton"; normalTitle = "Stop"; ObjectID = "9F6-Ze-qzU"; */
+"9F6-Ze-qzU.normalTitle" = "중지";
+
+
+//Ringtones
+/* Class = "IBUINavigationItem"; title = "Ringtones"; ObjectID = "HnX-ag-xuM"; */
+"HnX-ag-xuM.title" = "벨소리";
+
+
+//AboutView
+/* Class = "IBUILabel"; text = "Traduction française par Nassim Ouazzani."; ObjectID = "Hi0-W8-fi5"; */
+"Hi0-W8-fi5.text" = "";
+/* Class = "IBUINavigationItem"; title = "About"; ObjectID = "MNJ-wy-8Xs"; */
+"MNJ-wy-8Xs.title" = "정보";
+/* Class = "IBUILabel"; text = "© Stewart Companies Corp 2013. \nAll rights reserved."; ObjectID = "Zx6-yS-a7b"; */
+"Zx6-yS-a7b.text" = "© Stewart Companies Corp 2014.\n모든 권리는 저작권자의 소유입니다.";
+/* Class = "IBUIButton"; normalTitle = "Support"; ObjectID = "ivt-vv-fgW"; */
+"ivt-vv-fgW.normalTitle" = "지원";

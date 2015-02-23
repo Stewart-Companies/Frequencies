@@ -1,0 +1,30 @@
+/* 
+  Localizable.strings
+  FrequenciesPro
+
+  Created by Corey Stewart on 6/4/13.
+
+*/
+
+//AboutView
+
+/* Normal Test= “Version %@” */
+"SUPPORTVERSION" = "Version %@";
+
+/* Normal Test= “Describe your issue: \n\n\n\n\n\n\n Device: %@\niOS: %@\nApp Version: %@” */
+"SUPPORTMESSAGE" = "Describe your issue: \n\n\n\n\n\n\n Device: %@\niOS: %@\nApp Version: %@";
+
+/* Ringtones */
+"RINGTONEFAILTITLE" = "Uh oh...";
+
+"RINGTONEFAILMESSAGE" = "Something went wrong. Please contact support at support@FrequenciesPro.com.";
+
+"RINGTONESUCCESSTITLE" = "Success!";
+
+"RINGTONESUCCESSMESSAGE" = "Your ringtone is now available via iTunes File Sharing. Go to your computer, download the file, and then drag it to your library. You will then be able to sync the ringtone to your iPhone.";
+"RINGTONEALERTDISMISS" = "Dismiss";
+
+
+// Normal Localizations
+
+"CHILDREN" = "Children1";

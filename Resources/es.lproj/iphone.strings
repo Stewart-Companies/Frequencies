@@ -1,0 +1,102 @@
+//
+//    Version 5.0 (31)
+//
+//    iphone.strings (Spanish)
+//
+//    Translated by Nassim Ouazzani
+//    Copyright © 2015 Stewart Companies Corp.
+//
+
+// ViewController
+
+/* Class = "IBUIButton"; normalTitle = "Children"; ObjectID = "T7m-qk-iyn"; */
+"T7m-qk-iyn.normalTitle" = "Niños";
+
+/* Class = "IBUIButton"; normalTitle = "Animals"; ObjectID = "W4e-Fd-y1r"; */
+"W4e-Fd-y1r.normalTitle" = "Animales";
+
+/* Class = "IBUIButton"; normalTitle = "Advanced"; ObjectID = "a5m-SK-vpu"; */
+"a5m-SK-vpu.normalTitle" = "Avanzado";
+
+/* Class = "IBUIButton"; normalTitle = "Ringtones"; ObjectID = "wbH-qQ-isP"; */
+"wbH-qQ-isP.normalTitle" = "Melodía";
+
+
+//ChildrenView
+
+/* Class = "IBUINavigationItem"; title = "Children"; ObjectID = "oy6-5k-1Ae"; */
+"oy6-5k-1Ae.title" = "Niños";
+
+/* Class = "IBUILabel"; text = "- - - - - - - - - - - - - - - - - - - - Age - - - - - - - - - - - - - - - - - - - -"; ObjectID = "3lc-9D-f9W"; */
+"3lc-9D-f9W.text" = "- - - - - - - - - - - - - - - - - - - - Edad - - - - - - - - - - - - - - - - - - - -";
+
+/* Class = "IBUIButton"; normalTitle = "Play"; ObjectID = "l65-GM-uPq"; */
+"l65-GM-uPq.normalTitle" = "Reproducir";
+
+/* Class = "IBUIButton"; normalTitle = "Stop"; ObjectID = "pgi-sP-GHy"; */
+"pgi-sP-GHy.normalTitle" = "Parada";
+
+/* Class = "IBUILabel"; text = " Pulse"; ObjectID = "PkU-or-obI"; */
+"H3q-b6-uA9.text" = " Pulse";
+
+
+//AnimalView
+
+/* Class = "IBUINavigationItem"; title = "Animals"; ObjectID = "Leh-Yo-6tw"; */
+"Leh-Yo-6tw.title" = "Animales";
+
+/* Class = "IBUILabel"; text = "Humans can hear up to 23 kHz. Because of this, speaker manufacturers do not bother to make speakers that play sounds higher than 21 kHz. According to our sources, children under 13 are the only age group that can hear this tone, along with most small-sized animals such as cats and dogs. The button below plays this tone."; ObjectID = "dqV-EY-PhN"; */
+"dqV-EY-PhN.text" = "Los humanos pueden escuchar las ondas de sonido hasta 23 kHz. Debido a esto, fabricantes de altavoces  no se molestan en producir altvoces que reproducen sonidos superiores a 21 kHz. Según nuestras fuentes, los menores de 13 años son el único grupo que puede escuchar este tonalidad, junto con la mayoría de los animales pequeños como gatos y perros. El botón de abajo reproduce este sonido.";
+
+/* Class = "IBUIButton"; normalTitle = "Pulse"; ObjectID = "ifC-wU-mM0"; */
+"ifC-wU-mM0.normalTitle" = "Pulse";
+
+/* Class = "IBUIButton"; normalTitle = "Stop"; ObjectID = "cpW-Rp-7Fx"; */
+"cpW-Rp-7Fx.normalTitle" = "Parada";
+
+
+//AdvancedView
+
+/* Class = "IBUINavigationItem"; title = "Advanced"; ObjectID = "A7s-dK-hKC"; */
+"A7s-dK-hKC.title" = "Avanzado";
+
+/* Class = "IBUILabel"; text = "Pulse"; ObjectID = "pX8-Lo-8nR"; */
+"pX8-Lo-8nR.text" = " Pulse";
+
+/* Class = "IBUIButton"; normalTitle = "Stop"; ObjectID = "9F6-Ze-qzU"; */
+"9F6-Ze-qzU.normalTitle" = "Parada";
+
+
+//Ringtones
+
+/* Class = "IBUINavigationItem"; title = "Ringtones"; ObjectID = "HnX-ag-xuM"; */
+"HnX-ag-xuM.title" = "Melodía";
+
+
+//AboutView
+
+/* Class = "IBUILabel"; text = "Traduction française par Nassim Ouazzani."; ObjectID = "Hi0-W8-fi5"; */
+"Hi0-W8-fi5.text" = "Traducción española por Nassim Ouazzani.";
+
+/* Class = "IBUINavigationItem"; title = "About"; ObjectID = "MNJ-wy-8Xs"; */
+"MNJ-wy-8Xs.title" = "Datos";
+
+/* Class = "IBUILabel"; text = "© Stewart Companies Corp 2013. \nAll rights reserved."; ObjectID = "Zx6-yS-a7b"; */
+"Zx6-yS-a7b.text" = "© Stewart Companies Corp 2014.\nTodos los derechos reservados";
+
+/* Class = "IBUIButton"; normalTitle = "Support"; ObjectID = "ivt-vv-fgW"; */
+"ivt-vv-fgW.normalTitle" = "Ayuda";
+
+
+//LOCALIZABLE.STRINGS (Spanish)
+
+/* Ringtones Confirmation */
+"RINGTONEFAILTITLE" = "Oops...";
+"RINGTONEFAILMESSAGE" = "Hay un problema. Por favor, póngase en contacto el soporte@FrequenciesPro.com.";
+"RINGTONESUCCESSTITLE" = "Exito!";
+"RINGTONESUCCESSMESSAGE" = "Su melodía ya está disponible en  iTunes File Sharing.Vaya a su computadora, descargue el archivo y, arrástralo a su biblioteca. A continuación, será capaz de sincronizar el tono de llamada con tu iPhone.";
+"RINGTONEALERTDISMISS" = "Cerrar";
+
+/* Support Email Strings */
+"SUPPORTVERSION" = "Versión %@";
+"SUPPORTMESSAGE" = "Describe su problema : \n\n\n\n\n\n\n Dispositivo : %@\niOS: %@\n App Versión: %@";
