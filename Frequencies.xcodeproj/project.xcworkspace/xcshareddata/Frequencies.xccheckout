@@ -10,43 +10,31 @@
 	<string>Frequencies</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>17504EE8-8738-4D8E-87A1-DA235AF042F5</key>
-		<string>ssh://iMac.local/git/FrequenciesPro.git</string>
-		<key>208ECDB0C826459C123515A18F36D1918021F520</key>
-		<string>ssh://iMac.local/git/FrequenciesPro.git</string>
+		<key>543853C206A8E44AB8BBD49CA772DD86CFA46F36</key>
+		<string>https://github.com/Stewart-Companies/Frequencies.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Frequencies.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>17504EE8-8738-4D8E-87A1-DA235AF042F5</key>
-		<string>../../../Frequencies Pro</string>
-		<key>208ECDB0C826459C123515A18F36D1918021F520</key>
+		<key>543853C206A8E44AB8BBD49CA772DD86CFA46F36</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://iMac.local/git/FrequenciesPro.git</string>
+	<string>https://github.com/Stewart-Companies/Frequencies.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>208ECDB0C826459C123515A18F36D1918021F520</string>
+	<string>543853C206A8E44AB8BBD49CA772DD86CFA46F36</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>17504EE8-8738-4D8E-87A1-DA235AF042F5</string>
+			<string>543853C206A8E44AB8BBD49CA772DD86CFA46F36</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Frequencies Pro</string>
-		</dict>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>208ECDB0C826459C123515A18F36D1918021F520</string>
-			<key>IDESourceControlWCCName</key>
-			<string>Frequencies%20Pro</string>
+			<string>Frequencies</string>
 		</dict>
 	</array>
 </dict>
