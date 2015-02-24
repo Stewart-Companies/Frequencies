@@ -72,7 +72,7 @@
     
     MFMailComposeViewController *mailController= [[MFMailComposeViewController alloc] init];
     mailController.mailComposeDelegate = self;
-    [mailController setToRecipients:[NSArray arrayWithObjects:@"Frequencies Support<support@FrequenciesProApp.com>",nil]];
+    [mailController setToRecipients:[NSArray arrayWithObjects:@"Frequencies Support<support@FrequenciesPro.com>",nil]];
     [mailController setSubject:@"Frequencies Support Request"];
     [mailController setMessageBody:message isHTML:NO];
     [self presentViewController:mailController animated:YES completion:nil];
