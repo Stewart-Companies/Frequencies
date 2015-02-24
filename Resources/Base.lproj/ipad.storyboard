@@ -996,11 +996,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dh8-j1-cAy" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <customObject id="xFH-w1-EZS" customClass="Localize">
-                    <connections>
-                        <outlet property="buttonChildren" destination="Qi8-pG-Otz" id="gaO-zL-cYX"/>
-                    </connections>
-                </customObject>
+                <customObject id="xFH-w1-EZS" customClass="Localize"/>
             </objects>
             <point key="canvasLocation" x="-279" y="-297"/>
         </scene>
