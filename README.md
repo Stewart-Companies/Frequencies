@@ -28,7 +28,7 @@ To request a TestFlight invite, send us a message here or email us at support@Fr
 
 Support
 --------------
-All available support is available at support@FrequenciesPro.com.
+Support is available at support@FrequenciesPro.com.
 
 License
 --------------

@@ -234,8 +234,6 @@
 		0410039E1928ABD3007A0AA9 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/iphone.strings; sourceTree = "<group>"; };
 		041003A41928ABE2007A0AA9 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/iphone.strings; sourceTree = "<group>"; };
 		041003A61928ABE5007A0AA9 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/iphone.strings; sourceTree = "<group>"; };
-		041028FC19841FCC00D31D8B /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
-		041028FE19841FDF00D31D8B /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBAudienceNetwork.framework; path = FacebookSDK/FBAudienceNetwork.framework; sourceTree = "<group>"; };
 		042304DA14608CC50098ADCD /* pattern21000.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pattern21000.wav; sourceTree = "<group>"; };
 		042304DB14608CC50098ADCD /* 8000.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 8000.wav; sourceTree = "<group>"; };
 		042304DC14608CC50098ADCD /* pattern8000.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pattern8000.wav; sourceTree = "<group>"; };
@@ -505,8 +503,6 @@
 			isa = PBXGroup;
 			children = (
 				044E9DAC1A9BA7A7002356DD /* Libraries */,
-				041028FE19841FDF00D31D8B /* FBAudienceNetwork.framework */,
-				041028FC19841FCC00D31D8B /* FacebookSDK.framework */,
 				04EDD2F3194B5CFD00E2D7BC /* libAppTracker.a */,
 				04BD604119DCABB800E2F1E5 /* libAdIdAccess.a */,
 				044E9DA91A9BA745002356DD /* GoogleMobileAds.framework */,

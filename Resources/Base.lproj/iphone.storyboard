@@ -1804,7 +1804,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="pVO-Pf-OPc"/>
                                 </constraints>
-                                <string key="text">© Stewart Companies Corp 2014. 
+                                <string key="text">© Stewart Companies Corp 2015. 
 All rights reserved.</string>
                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="10"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>

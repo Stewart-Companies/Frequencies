@@ -49,9 +49,9 @@
 /* Class = "IBUINavigationItem"; title = "About"; ObjectID = "C9w-Y5-HYM"; */
 "C9w-Y5-HYM.title" = "정보";
 
-/* Class = "IBUILabel"; text = "© Stewart Companies Corp 2014.
+/* Class = "IBUILabel"; text = "© Stewart Companies Corp 2015.
  All rights reserved."; ObjectID = "bE4-wr-CET"; */
-"bE4-wr-CET.text" = "© Stewart Companies Corp 2014.\n모든 권리는 저작권자의 소유입니다.";
+"bE4-wr-CET.text" = "© Stewart Companies Corp 2015.\n모든 권리는 저작권자의 소유입니다.";
 
 /* Class = "IBUILabel"; text = "Translated by Johnny Appleseed."; ObjectID = "2Fb-5f-PXr"; */
 "2Fb-5f-PXr.text" = "";

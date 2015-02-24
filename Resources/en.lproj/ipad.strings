@@ -49,9 +49,9 @@
 /* Class = "IBUINavigationItem"; title = "About"; ObjectID = "C9w-Y5-HYM"; */
 "C9w-Y5-HYM.title" = "About";
 
-/* Class = "IBUILabel"; text = "© Stewart Companies Corp 2014.
+/* Class = "IBUILabel"; text = "© Stewart Companies Corp 2015.
  All rights reserved."; ObjectID = "bE4-wr-CET"; */
-"bE4-wr-CET.text" = "© Stewart Companies Corp 2014.\nAll rights reserved.";
+"bE4-wr-CET.text" = "© Stewart Companies Corp 2015.\nAll rights reserved.";
 
 /* Class = "IBUILabel"; text = "Translated by Johnny Appleseed."; ObjectID = "2Fb-5f-PXr"; */
 "2Fb-5f-PXr.text" = "";
