@@ -1252,8 +1252,6 @@
 					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks",
 					"$(PROJECT_DIR)/Libraries",
 					"$(PROJECT_DIR)/AdMob",
-					/Users/corey/Documents/FacebookSDK,
-					/Users/corey/Documents/FacebookSDK/FBAudienceNetwork,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Frequencies/Frequencies-Prefix.pch";
@@ -1313,8 +1311,6 @@
 					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks",
 					"$(PROJECT_DIR)/Libraries",
 					"$(PROJECT_DIR)/AdMob",
-					/Users/corey/Documents/FacebookSDK,
-					/Users/corey/Documents/FacebookSDK/FBAudienceNetwork,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Frequencies/Frequencies-Prefix.pch";
@@ -1654,8 +1650,6 @@
 					"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks",
 					"$(PROJECT_DIR)/Libraries",
 					"$(PROJECT_DIR)/AdMob",
-					/Users/corey/Documents/FacebookSDK,
-					/Users/corey/Documents/FacebookSDK/FBAudienceNetwork,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Frequencies/Frequencies-Prefix.pch";

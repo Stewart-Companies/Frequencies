@@ -11,7 +11,6 @@
 #import "iRate.h"
 #import "iVersion.h"
 #import <RevMobAds/RevMobAds.h>
-//#import <FacebookSDK/FacebookSDK.h>
 
 @implementation AppDelegate
 
