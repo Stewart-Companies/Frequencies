@@ -58,6 +58,6 @@
 /* Class = "IBUINavigationItem"; title = "About"; ObjectID = "MNJ-wy-8Xs"; */
 "MNJ-wy-8Xs.title" = "정보";
 /* Class = "IBUILabel"; text = "© Stewart Companies Corp 2013. \nAll rights reserved."; ObjectID = "Zx6-yS-a7b"; */
-"Zx6-yS-a7b.text" = "© Stewart Companies Corp 2014.\n모든 권리는 저작권자의 소유입니다.";
+"Zx6-yS-a7b.text" = "© Stewart Companies Corp 2015.\n모든 권리는 저작권자의 소유입니다.";
 /* Class = "IBUIButton"; normalTitle = "Support"; ObjectID = "ivt-vv-fgW"; */
 "ivt-vv-fgW.normalTitle" = "지원";
