@@ -301,7 +301,6 @@
 		0469349E1960BCFB008ABAF5 /* RevMobCustomEventInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RevMobCustomEventInterstitial.h; sourceTree = "<group>"; };
 		0469349F1960BCFB008ABAF5 /* RevMobCustomEventInterstitial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RevMobCustomEventInterstitial.m; sourceTree = "<group>"; };
 		046934A419610995008ABAF5 /* libAdmobLeadbolt.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAdmobLeadbolt.a; path = Libraries/libAdmobLeadbolt.a; sourceTree = "<group>"; };
-		046934A619610BE5008ABAF5 /* GADLeadboltCustomEventInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADLeadboltCustomEventInterstitial.h; sourceTree = "<group>"; };
 		0473623D19349E50004A0824 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/iphone.strings; sourceTree = "<group>"; };
 		0473623E1934DB44004A0824 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
 		047362421934F57A004A0824 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
@@ -355,7 +354,6 @@
 		0485741217E00B9E00F096EB /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0485741317E019D500F096EB /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0487AC6716717E6700E330BE /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
-		0490B0C3194A76C800D127F0 /* LeadboltOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeadboltOverlay.h; sourceTree = "<group>"; };
 		0490B0DA194B2B3B00D127F0 /* libLeadboltOverlay.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libLeadboltOverlay.a; path = Libraries/libLeadboltOverlay.a; sourceTree = "<group>"; };
 		0490B0DC194B2C9F00D127F0 /* libAdmobLeadbolt.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAdmobLeadbolt.a; path = Libraries/libAdmobLeadbolt.a; sourceTree = "<group>"; };
 		0490B1E9194B3FD500D127F0 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
@@ -394,7 +392,6 @@
 		04BD604119DCABB800E2F1E5 /* libAdIdAccess.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAdIdAccess.a; path = Libraries/libAdIdAccess.a; sourceTree = "<group>"; };
 		04C930531942C74C0088F978 /* banner_OSX.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner_OSX.png; sourceTree = "<group>"; };
 		04DEFF5D17680BE500253312 /* Background_ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background_ipad.png; sourceTree = "<group>"; };
-		04EDD2F2194B5CCA00E2D7BC /* AppTracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppTracker.h; sourceTree = "<group>"; };
 		04EDD2F3194B5CFD00E2D7BC /* libAppTracker.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAppTracker.a; path = Libraries/libAppTracker.a; sourceTree = "<group>"; };
 		04F4D6CA175657E200F4CD0C /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -657,7 +654,6 @@
 			children = (
 				0469349E1960BCFB008ABAF5 /* RevMobCustomEventInterstitial.h */,
 				0469349F1960BCFB008ABAF5 /* RevMobCustomEventInterstitial.m */,
-				046934A619610BE5008ABAF5 /* GADLeadboltCustomEventInterstitial.h */,
 			);
 			path = CustomMediation;
 			sourceTree = "<group>";
@@ -742,7 +738,6 @@
 		0490B0C0194A76C800D127F0 /* Leadbolt */ = {
 			isa = PBXGroup;
 			children = (
-				0490B0C3194A76C800D127F0 /* LeadboltOverlay.h */,
 			);
 			path = Leadbolt;
 			sourceTree = "<group>";
@@ -789,7 +784,6 @@
 		04EDD2F1194B5CCA00E2D7BC /* AppFireworks */ = {
 			isa = PBXGroup;
 			children = (
-				04EDD2F2194B5CCA00E2D7BC /* AppTracker.h */,
 			);
 			path = AppFireworks;
 			sourceTree = "<group>";

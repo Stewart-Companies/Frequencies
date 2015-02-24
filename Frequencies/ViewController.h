@@ -18,8 +18,6 @@
 #import "GoogleAnalytics.h"
 #import "AboutView.h"
 #import "Ringtones.h"
-#import "LeadboltOverlay.h"
-#import "AppTracker.h"
 
 
 @interface ViewController : GAITrackedViewController <GADInterstitialDelegate> {

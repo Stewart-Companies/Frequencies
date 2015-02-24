@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 #import "GoogleAnalytics.h"
-#import "AppTracker.h"
 
 @class ViewController;
 
