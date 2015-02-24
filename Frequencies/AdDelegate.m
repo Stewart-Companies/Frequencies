@@ -52,8 +52,7 @@ static bool adIsLoaded;
 {
 	if (![AdDelegate bannerAdsAreDisabled])
 	{
-	//GADBannerView * adView;
-	[self addBannerAdToViewController:rootViewController inLandscape:inLandscape];
+		[self addBannerAdToViewController:rootViewController inLandscape:inLandscape];
 	}
 }
 
@@ -112,41 +111,12 @@ static bool adIsLoaded;
 
 -(void)showInterstitialAdForView: (UIView *)view
 {
-	if (![AdDelegate interstitialAdsAreDisabled])
-	{
-		/*
-		// Read data and react to changes
-		//Initialize AppFireworks Analytics
-		[AppTracker startSession:@"OyKNfDtrU9U8Aw0PfvWl5uOHopzrHQ7u" view:view];
-		[[NSNotificationCenter defaultCenter] addObserver:self
-												 selector:@selector(handleModuleFail) name:@"onModuleFailed"
-												   object:@"AppFireworksNotification"];
-		 //RevMob Interstitial Ads
-		if ([AdDelegate devMode])
-		{
-			[RevMobAds session].testingMode = RevMobAdsTestingModeWithAds;
-		}
-		
-		RevMobFullscreen *ad = [[RevMobAds session] fullscreen];
-		
-		[ad loadWithSuccessHandler:^(RevMobFullscreen *fs) {
-			[fs showAd];
-			[self revmobAdDisplayed];
-		} andLoadFailHandler:^(RevMobFullscreen *fs, NSError *error) {
-			[self revmobAdDidFailWithError:error];
-		} onClickHandler:^{
-			[self revmobUserClickedInTheAd];
-		} onCloseHandler:^{
-			[self revmobUserClosedTheAd];
-		}];
-		 */
-	}
+
 }
 
 -(void)handleModuleFail
 {
-	//LeadboltOverlay *leadboltAd = [LeadboltOverlay createAdWithSectionid:@"599288495" view:self.view];
-	//[leadboltAd loadAd];
+
 }
 
 
@@ -279,9 +249,6 @@ static bool adIsLoaded;
 		NSLog(@"DisableInterstitialAds = FALSE");
 	}
     
-    /*UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Interstitial Ads Disabled" message:@"Interstitial ads have been disabled. Restart app to take effect." delegate:self cancelButtonTitle:@"Dismiss" otherButtonTitles:nil];
-    [alert show];*/
-    
 }
 
 + (void)enableBannerAds
@@ -289,9 +256,7 @@ static bool adIsLoaded;
 	[[NSUserDefaults standardUserDefaults] removeObjectForKey:@"DisableBannerAds"];
 	[[NSUserDefaults standardUserDefaults] synchronize];
     DebugLog(@"Banner ads are now enabled.");
-    
-    /*UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Banner Ads Enabled" message:@"Banner ads have been enabled. Restart app to take effect." delegate:self cancelButtonTitle:@"Dismiss" otherButtonTitles:nil];
-    [alert show];*/
+
 }
 
 + (void)enableInterstitialAds
@@ -299,9 +264,7 @@ static bool adIsLoaded;
 	[[NSUserDefaults standardUserDefaults] removeObjectForKey:@"DisableInterstitialAds"];
 	[[NSUserDefaults standardUserDefaults] synchronize];
 	DebugLog(@"Interstitial ads are now enabled.");
-	
-    /*UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Interstitial Ads Enabled" message:@"Interstitial ads have been enabled. Restart app to take effect." delegate:self cancelButtonTitle:@"Dismiss" otherButtonTitles:nil];
-    [alert show];*/
+
 }
 
 + (bool)bannerAdsAreDisabled

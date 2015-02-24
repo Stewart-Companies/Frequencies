@@ -53,11 +53,6 @@ static LeadboltOverlay *leadboltAd;
 	{
 		splashInterstitial_.adUnitID = @"ca-app-pub-4343476466504805/2510323370";
 	}
-    //For beta and developer builds, display test ads.
-	if ([self devMode])
-	{
-		//request.testDevices = [NSArray arrayWithObjects:GAD_SIMULATOR_ID,@"a49c8a1efbe5e25bf6f3a4cc46b32044",@"d9239ec43d90594953fb81925ce26522",nil];
-	}
 	
     [splashInterstitial_ loadRequest:request];
 }
@@ -114,16 +109,13 @@ static LeadboltOverlay *leadboltAd;
     
     //Google Analytics
     self.screenName = @"Home Screen";
-    
+	
     //Show ad
-    //[[AdDelegate shared] showAdBannerForViewController:self inLandscape:NO];
-	//[[AdDelegate shared] showInterstitialAdForView:self.view];
 	if (![AdDelegate interstitialAdsAreDisabled])
 	{
 		[self loadAdMobInterstitialAdRequest];
 	}
-	//[[AdDelegate shared] showAdBannerForViewController:self inLandscape:NO];
-    
+	
     //Initialize player
     [[Player alloc] setPlayer];
 	
@@ -164,7 +156,6 @@ static LeadboltOverlay *leadboltAd;
 - (void)viewDidAppear:(BOOL)animated
 {
 	[super viewDidAppear:animated];
-	//[[AdDelegate shared] showAdBannerForViewController:self inLandscape:NO];
 }
 
 - (void)viewWillDisappear:(BOOL)animated

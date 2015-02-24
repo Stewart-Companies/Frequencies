@@ -12,6 +12,9 @@
 @implementation AboutView 
 
 
+// Frequencies will display the dev menu here when devmode is on.
+
+
 - (BOOL)prefersStatusBarHidden
 {
     return TRUE;
@@ -21,24 +24,6 @@
     [self dismissViewControllerAnimated:YES completion:nil];
     
 }
-
-/*
-- (void)motionBegan:(UIEventSubtype)motion withEvent:(UIEvent *)event
-{
-    if(event.type == UIEventSubtypeMotionShake)
-    {
-        [_debugButton setHidden:FALSE];
-        NSLog(@"Shake? Showing menu.");
-    }
-}
-
- 
--(IBAction)enableDebug:(id)sender {
-    [_debugMenu setHidden:FALSE];
-    NSLog(@"Debug Enabled");
-}
-
-*/
 
 -(IBAction)disableDevMode:(id)sender
 {

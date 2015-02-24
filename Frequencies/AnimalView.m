@@ -25,12 +25,6 @@
     // Release any cached data, images, etc that aren't in use.
 }
 
-#pragma mark - View lifecycle
-
-
-//Begining of Frequencies Pro Coding
-
-//////////////////////////////Sounds//////////////////////////////
 
 - (void)play: (NSString *)frequency
 {

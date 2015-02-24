@@ -18,9 +18,7 @@
 #import "GoogleAnalytics.h"
 #import "AboutView.h"
 #import "Ringtones.h"
-#import "Localize.h"
 #import "LeadboltOverlay.h"
-//#import <RevMobAds/RevMobAds.h>
 #import "AppTracker.h"
 
 

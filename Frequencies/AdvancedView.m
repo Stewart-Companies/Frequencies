@@ -36,13 +36,6 @@
     // Release any cached data, images, etc that aren't in use.
 }
 
-#pragma mark - View lifecycle
-
-
-//Begining of Frequencies Pro Coding
-
-//////////////////////////////Sounds//////////////////////////////
-
 - (void)play: (NSString *)frequency
 {
     if (_timerStepper.value != 0 && _timerSwitch.isOn == YES && timer == nil){
@@ -157,9 +150,7 @@
     }
     
     _timerDisplay.text = [NSString stringWithFormat:@"%02i:%02i", TimerCountMinutes,TimerCountSeconds];
-    
-    
-    //NSLog(@"Value:%@",[NSString stringWithFormat:@"%02i:%02i", TimerCountMinutes,TimerCountSeconds]);
+	
 }
 
 - (void)viewDidLoad

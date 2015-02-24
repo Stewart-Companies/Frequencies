@@ -34,13 +34,6 @@
     // Release any cached data, images, etc that aren't in use.
 }
 
-#pragma mark - View lifecycle
-
-
-//Begining of Frequencies Pro Coding
-
-//////////////////////////////Sounds//////////////////////////////
-
 - (IBAction)sliderValueChanged:(id)sender {
     [self playSelectedValue];
 }
@@ -231,7 +224,6 @@
     }
     _timerDisplay.text = [NSString stringWithFormat:@"%02i:%02i", TimerCountMinutes,TimerCountSeconds];
     _timerStepper.value = TimerCountNumber;
-    //NSLog(@"%i:%i", TimerCountMinutes,TimerCountSeconds);
     
     if (TimerCountNumber == 0){
         [self clearTimer];
@@ -300,9 +292,7 @@
     }
     
     _timerDisplay.text = [NSString stringWithFormat:@"%02i:%02i", TimerCountMinutes,TimerCountSeconds];
-    
-    
-    //NSLog(@"Value:%@",[NSString stringWithFormat:@"%02i:%02i", TimerCountMinutes,TimerCountSeconds]);
+	
 }
 
 
@@ -321,8 +311,6 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {
-	// Show banner ad
-	//[[AdDelegate shared] showAdBannerForViewController:self inLandscape:YES];
 }
 
 - (NSUInteger)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window

@@ -24,13 +24,17 @@
 	NSArray* languages = [defs objectForKey:@"AppleLanguages"];
 	NSString* preferredLang = [languages objectAtIndex:0];
 	NSLog(@"Language: %@",preferredLang);
-	//[iVersion sharedInstance].remoteVersionsPlistURL = [NSString stringWithFormat:@"http://corp.dominionchiropractic.com/versions_%@.plist",preferredLang];
+	
+	
+	// if "Preview iVersion" is set in the dev menu, then set previewMode on.
+	
 	bool previewiVersion = [[NSUserDefaults standardUserDefaults] valueForKey:@"PreviewiVersion"];
 	
 	if (previewiVersion)
 	{
 		[iVersion sharedInstance].previewMode = YES;
 	}
+	
 	[iVersion sharedInstance].verboseLogging = YES;
 }
 
@@ -46,6 +50,8 @@
 	//configure iRate
 	[iRate sharedInstance].daysUntilPrompt = 1;
 	[iRate sharedInstance].usesUntilPrompt = 3;
+	
+	// if "Preview iRate" is set in the dev menu, then set previewMode on.
 	bool previewiRate = [[NSUserDefaults standardUserDefaults] valueForKey:@"PreviewiRate"];
 	
 	if (previewiRate)
@@ -55,15 +61,6 @@
 	
 	//configure iVersion
 	//[iVersion sharedInstance].appStoreID = 398296784;
-	
-	//Start RevMob session
-	//[RevMobAds startSessionWithAppID:@"5397c4f8326599ba08526021"];
-	//[RevMobAds session].testingMode = RevMobAdsTestingModeWithAds;
-	//[[RevMobAds session] showFullscreen];
-	
-	
-	//Initialize AppFireworks Analytics
-	//[AppTracker startSession:@"OyKNfDtrU9U8Aw0PfvWl5uOHopzrHQ7u"];
 
     return YES;
 }
@@ -136,11 +133,6 @@
     /*
      Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
      */
-	if (![AdDelegate devMode])
-	{
-		//[FBSettings setDefaultAppID:@"306366229375014"];
-		//[FBAppEvents activateApp];
-	}
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application
