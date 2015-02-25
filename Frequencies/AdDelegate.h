@@ -13,7 +13,6 @@
 #import <StoreKit/StoreKit.h>
 #import <Security/Security.h>
 #import "ViewController.h"
-#import "LeadBoltOverlay.h"
 #import <RevMobAds/RevMobAds.h>
 #import "NavigationController.h"
 

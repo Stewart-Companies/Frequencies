@@ -117,7 +117,7 @@
 
 - (void)applicationDidEnterBackground:(UIApplication *)application
 {
-    [AppTracker closeSession];
+	
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application

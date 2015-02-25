@@ -19,7 +19,6 @@
 
 
 @implementation ViewController
-static LeadboltOverlay *leadboltAd;
 
 
 - (NSUInteger)supportedInterfaceOrientations
@@ -135,16 +134,6 @@ static LeadboltOverlay *leadboltAd;
 {
     NSLog(@"Did receive admob interstitial ad.");
 	[ad presentFromRootViewController: self.navigationController];
-}
-
-
-
--(void)handleLBEvent:(NSNotification *)notif {
-	if([notif.name isEqualToString:@"onAdCached"]) {
-		// Ad successfully cached, simply load it now
-		NSLog(@"Did receive leadbolt interstitial ad.");
-		[leadboltAd loadAd];
-	}
 }
 
 - (void)viewWillAppear:(BOOL)animated
