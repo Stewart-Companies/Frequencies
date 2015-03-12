@@ -19,6 +19,12 @@ You can contribute to Frequencies by:
 *   Providing feedback and suggestions
 *   Writing/editing documentation
 
+Pull Requests
+--------------
+Each pull request advances the build number and should be titled "build [the next build number]".
+The description should include a summary of all the commits that were made in your branch.
+For any questions about pull request, send us an email at support@FrequenciesPro.com.
+
 Installation
 --------------
 Frequencies is available free for download [on the App Store](https://itunes.apple.com/us/app/frequencies-sounds-only-teens/id398296783?mt=8), however, you can also
