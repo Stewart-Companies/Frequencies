@@ -33,7 +33,7 @@
 
 <?php
 // Pear Mail Library
-require_once "Mail.php";
+require_once "/usr/share/php/Mail.php";
 
 // define variables and set to empty values
 $fname = $lname = $email = $IP = $emailErr = "";
@@ -42,16 +42,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $fname = test_input($_POST["fname"]);
   $lname = test_input($_POST["lname"]);
   $email = test_input($_POST["email"]);
-  
+  $IP = $_SERVER['REMOTE_ADDR'];
   if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
   $emailErr = "Invalid email format"; 
   }
   
   if ($emailErr == "") {
-	  $from = '<resumechiro@gmail.com>';
-	  $to = '<coreyhstewart@icloud.com>';
-	  $subject = 'Hi!';
-	  $body = "Hi,\n\nHow are you?";
+	  $from = '"FrequenciesPro.com" <support@frequenciespro.com>';
+	  $to = '"Corey Stewart" <coreyhstewart@icloud.com>';
+	  $subject = 'TestFlight Invite Request';
+	  $body = "Invite request from IP address $IP\n\n";
+	  $body .= "First Name: $fname\n";
+	  $body .= "Last Name: $lname\n";
+	  $body .= "Email: $email\n\n";
+	  $body .= "Request date: ".date('l jS \of F Y h:i:s A');
 	  $headers = array(
 	  'From' => $from,
 	  'To' => $to,
@@ -61,8 +65,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         'host' => 'ssl://smtp.gmail.com',
         'port' => '465',
         'auth' => true,
-        'username' => 'resumechiro@gmail.com',
-        'password' => 'jewels77'
+        'username' => 'support@frequenciespro.com',
+        'password' => 'bsTSISJC1709@'
 		));
 		$mail = $smtp->send($to, $headers, $body);
 		
@@ -85,8 +89,8 @@ function test_input($data) {
 ?>
 <p>Fill out the form below to request a TestFlight invite.</p>
 <form method="POST" action="">
-<p>Email: <input type="text" name="email"/></p>
-<p>First Name: <input type="text" name="fname" placeholder="optional"/></p>
+<p>Email: <input type="text" name="email"/> </p>
+<p>First Name: <input type="text" name="fname" placeholder="optional"/><span class="error"><?php echo $emailErr"; ?></span></p>
 <p>Last Name: <input type="text" name="lname" placeholder="optional"/></p>
 <p><input type="submit" value="Request Invite"/>
 </form>
