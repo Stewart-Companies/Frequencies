@@ -73,7 +73,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 		if (PEAR::isError($mail)) {
 			echo('<p>' . $mail->getMessage() . '</p>');
 			} else {
-				echo('<p>Message successfully sent!</p>');
+				echo('<p>Your request has been sent! You will receive an invite email within two days. Thank you for supporting the Frequencies project!</p>');
 				}
   }
   
