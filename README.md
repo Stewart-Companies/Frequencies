@@ -30,7 +30,7 @@ Installation
 Frequencies is available free for download [on the App Store](https://itunes.apple.com/us/app/frequencies-sounds-only-teens/id398296783?mt=8), however, you can also
 install beta releases via TestFlight.
 
-To request a TestFlight invite, send us a message here or email us at support@FrequenciesPro.com.
+To get a TestFlight invite, [fill out this form](http://www.frequenciespro.com/testflight-invite.php) and we'll send you one within two days.
 
 Support
 --------------
