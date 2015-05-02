@@ -540,11 +540,25 @@ a.testFlightButton {
   line-height: 1.2;
   color: #fff;
 }
+a.appstoreButton {
+  width: 134px;
+  height: 58px;
+  padding-top: 22px;
+  padding-left: 68px;
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-size: 23px;
+  line-height: 1.2;
+  color: #fff;
+}
 a.button small {
   display: block;
   font-size: 11px;
 }
 a.testFlightButton small {
+  display: block;
+  font-size: 11px;
+}
+a.appstoreButton small {
   display: block;
   font-size: 11px;
 }
@@ -557,6 +571,12 @@ header a.button {
 }
 
 header a.testFlightButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: transparent url(../images/github-button.png) 0 0 no-repeat;
+}
+header a.appstoreButton {
   position: absolute;
   top: 0;
   right: 0;
@@ -577,6 +597,14 @@ aside a.testFlightButton {
   margin-bottom: 20px;
   font-size: 21px;
   background: transparent url(../images/testflight-button.png) 0 0 no-repeat;
+}
+aside a.appstoreButton {
+  display: block;
+  width: 138px;
+  padding-left: 64px;
+  margin-bottom: 20px;
+  font-size: 21px;
+  background: transparent url(../images/appstore-button.png) 0 0 no-repeat;
 }
 
 code, pre {
@@ -893,11 +921,32 @@ footer a:hover {
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
   }
+  header a.appstoreButton {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 5px 10px;
+    margin-top: 15px;
+    font-size: 13px;
+    line-height: 1;
+    color: #2879d0;
+    text-align: center;
+    background-color: #9ddcff;
+    background-image: none;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+  }
   header a.button small {
     display: inline;
     font-size: 13px;
   }
   header a.testFlightButton small {
+    display: inline;
+    font-size: 13px;
+  }
+  header a.appstoreButton small {
     display: inline;
     font-size: 13px;
   }
@@ -917,6 +966,9 @@ footer a:hover {
     display: none;
   }
   aside#sidebar a.testFlightButton {
+    display: none;
+  }
+  aside#sidebar a.appstoreButton {
     display: none;
   }
   #main-content h1:before,

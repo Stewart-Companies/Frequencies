@@ -3,7 +3,7 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="description" content="Frequencies App is open source and anyone can beta test it on TestFlight.">
     <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
@@ -13,7 +13,7 @@
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <title>Frequencies App for iOS by Stewart-Companies</title>
+    <title>Beta Test with TestFlight</title>
   </head>
 
   <body>
@@ -87,7 +87,7 @@ function test_input($data) {
     return $data;
 }
 ?>
-<p>Fill out the form below to request a TestFlight invite.</p>
+<p>Frequencies is open source and is available for anyone to beta test on TestFlight. However, Apple still requires us to send invites to testers. To get invited, please fill out the form below and you will get a TestFlight invite within two days.</p>
 <form method="POST" action="">
 <p>Email: <input type="text" name="email"/> <span class="error"><?php echo $emailErr; ?></span></p>
 <p>First Name: <input type="text" name="fname" placeholder="optional"/></p>
@@ -97,17 +97,17 @@ function test_input($data) {
 </section>
 
         <aside id="sidebar">
-        	<a href="https://github.com/Stewart-Companies/Frequencies/zipball/master" class="testFlightButton">
-            <small>Get invited to</small>
+        	<a href="https://itunes.apple.com/us/app/frequencies-sounds-only-teens/id398296783" class="appstoreButton">
+            <small>Download</small>
+            App Store
+            </a>
+        	<a href="testflight-invite.php" class="testFlightButton">
+            <small>Beta Test</small>
             TestFlight
             </a>
           <a href="https://github.com/Stewart-Companies/Frequencies/zipball/master" class="button">
-            <small>Download</small>
+            <small>Source</small>
             .zip file
-          </a>
-          <a href="https://github.com/Stewart-Companies/Frequencies/tarball/master" class="button">
-            <small>Download</small>
-            .tar.gz file
           </a>
 
           <p class="repo-owner"><a href="https://github.com/Stewart-Companies/Frequencies"></a> is maintained by <a href="https://github.com/Stewart-Companies">Stewart-Companies</a>.</p>
