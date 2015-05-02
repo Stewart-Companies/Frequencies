@@ -40,6 +40,7 @@
 
 - (void)loadAdMobInterstitialAdRequest
 {
+	/*
     //Load Splash Ad
     splashInterstitial_ = [[GADInterstitial alloc] init];
     splashInterstitial_.delegate = self;
@@ -54,6 +55,7 @@
 	}
 	
     [splashInterstitial_ loadRequest:request];
+	 */
 }
 
 
@@ -102,7 +104,7 @@
 		[_devStripe setHidden: YES];
 	}
 	
-    //Initicalize Google Analytics
+    //Initialize Google Analytics
     GoogleAnalytics *googleAnalytics = [[GoogleAnalytics alloc] init];
     [googleAnalytics initializeTheTracker];
     
@@ -110,15 +112,22 @@
     self.screenName = @"Home Screen";
 	
     //Show ad
+	
+	/*
+	 Google does not approve of interstitial ads being displayed at app startup. Disabled for now to allow ads to serve to banners.
+	 
 	if (![AdDelegate interstitialAdsAreDisabled])
 	{
 		[self loadAdMobInterstitialAdRequest];
 	}
+	 */
 	
     //Initialize player
     [[Player alloc] setPlayer];
 	
 	_viewLoaded = YES;
+	
+	// We might want to say something if there is a known issue with users using Cydia.
 	
 	NSString *filePath = @"/Applications/Cydia.app";
 	

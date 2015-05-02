@@ -91,7 +91,7 @@
 - (void)timerCountThenPlay: (NSTimer *)theTimer {
     NSString * frequency = [theTimer userInfo];
     TimerCountNumber = TimerCountNumber - 1;
-    if (!TimerCountNumber < 60)
+    if (!(TimerCountNumber < 60))
     {
         TimerCountMinutes = floor(TimerCountNumber/60);
         TimerCountSeconds = (TimerCountNumber - (TimerCountMinutes * 60));
@@ -138,7 +138,7 @@
 -(IBAction)timerStepperValueChanged:(id)sender{
     
     TimerCountNumber = _timerStepper.value;
-    if (!_timerStepper.value < 60)
+    if (!(_timerStepper.value < 60))
     {
         TimerCountMinutes = floor(_timerStepper.value/60);
         TimerCountSeconds = (_timerStepper.value - (TimerCountMinutes * 60));

@@ -23,7 +23,6 @@
 @interface ViewController : GAITrackedViewController <GADInterstitialDelegate> {
     BOOL bannerIsVisible;
     BOOL adsAreOff;
-    IBOutlet UIImageView *imageView_;
     GADInterstitial *splashInterstitial_;
     GAITrackedViewController *tracker;
 	NSString *adNetwork;
