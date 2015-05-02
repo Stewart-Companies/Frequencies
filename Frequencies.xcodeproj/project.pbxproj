@@ -89,7 +89,6 @@
 		0464C7851946359100EDCC70 /* iVersion.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0464C7821946359100EDCC70 /* iVersion.bundle */; };
 		0464C7861946359100EDCC70 /* iVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 0464C7841946359100EDCC70 /* iVersion.m */; };
 		0467E501174C70190074060A /* libAdapterIAd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0467E500174C70190074060A /* libAdapterIAd.a */; };
-		046934A01960BCFB008ABAF5 /* RevMobCustomEventInterstitial.m in Sources */ = {isa = PBXBuildFile; fileRef = 0469349F1960BCFB008ABAF5 /* RevMobCustomEventInterstitial.m */; };
 		0473623F1934DB44004A0824 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 0473623E1934DB44004A0824 /* stop.png */; };
 		047362431934F57A004A0824 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 047362421934F57A004A0824 /* play.png */; };
 		0473624519354E3F004A0824 /* timer.png in Resources */ = {isa = PBXBuildFile; fileRef = 0473624419354E3F004A0824 /* timer.png */; };
@@ -298,8 +297,6 @@
 		0464C7841946359100EDCC70 /* iVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iVersion.m; path = iVersion/iVersion.m; sourceTree = "<group>"; };
 		0467E4FC174C6D3C0074060A /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAdMobAds.a; path = Libraries/libGoogleAdMobAds.a; sourceTree = "<group>"; };
 		0467E500174C70190074060A /* libAdapterIAd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAdapterIAd.a; path = Libraries/libAdapterIAd.a; sourceTree = "<group>"; };
-		0469349E1960BCFB008ABAF5 /* RevMobCustomEventInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RevMobCustomEventInterstitial.h; sourceTree = "<group>"; };
-		0469349F1960BCFB008ABAF5 /* RevMobCustomEventInterstitial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RevMobCustomEventInterstitial.m; sourceTree = "<group>"; };
 		046934A419610995008ABAF5 /* libAdmobLeadbolt.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAdmobLeadbolt.a; path = Libraries/libAdmobLeadbolt.a; sourceTree = "<group>"; };
 		0473623D19349E50004A0824 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/iphone.strings; sourceTree = "<group>"; };
 		0473623E1934DB44004A0824 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
@@ -467,7 +464,6 @@
 		040DA652145D861F0097E3F9 = {
 			isa = PBXGroup;
 			children = (
-				0469349D1960BBA7008ABAF5 /* CustomMediation */,
 				04EDD2F1194B5CCA00E2D7BC /* AppFireworks */,
 				0490B0C0194A76C800D127F0 /* Leadbolt */,
 				0464C7811946358400EDCC70 /* iVersion */,
@@ -647,15 +643,6 @@
 				0464C7841946359100EDCC70 /* iVersion.m */,
 			);
 			name = iVersion;
-			sourceTree = "<group>";
-		};
-		0469349D1960BBA7008ABAF5 /* CustomMediation */ = {
-			isa = PBXGroup;
-			children = (
-				0469349E1960BCFB008ABAF5 /* RevMobCustomEventInterstitial.h */,
-				0469349F1960BCFB008ABAF5 /* RevMobCustomEventInterstitial.m */,
-			);
-			path = CustomMediation;
 			sourceTree = "<group>";
 		};
 		04736262193782EE004A0824 /* InMobi */ = {
@@ -1070,7 +1057,6 @@
 				040DA675145D861F0097E3F9 /* ViewController.m in Sources */,
 				040DA6A1145D890B0097E3F9 /* ChildrenView.m in Sources */,
 				040DA6A6145D9A8C0097E3F9 /* AnimalView.m in Sources */,
-				046934A01960BCFB008ABAF5 /* RevMobCustomEventInterstitial.m in Sources */,
 				040DA711145E10CA0097E3F9 /* AboutView.m in Sources */,
 				0464C7861946359100EDCC70 /* iVersion.m in Sources */,
 				040DA71A145E14AD0097E3F9 /* AdvancedView.m in Sources */,
