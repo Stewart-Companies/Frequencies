@@ -12,7 +12,7 @@ html {
   -ms-text-size-adjust: 100%; /* 2 */
 }
 
-error {
+span.error {
 	color: #FF0000;
 }
 
