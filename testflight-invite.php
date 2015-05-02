@@ -90,7 +90,7 @@ function test_input($data) {
 <p>Fill out the form below to request a TestFlight invite.</p>
 <form method="POST" action="">
 <p>Email: <input type="text" name="email"/> </p>
-<p>First Name: <input type="text" name="fname" placeholder="optional"/><span class="error"><?php echo $emailErr"; ?></span></p>
+<p>First Name: <input type="text" name="fname" placeholder="optional"/><span class="error"><?php echo $emailErr; ?></span></p>
 <p>Last Name: <input type="text" name="lname" placeholder="optional"/></p>
 <p><input type="submit" value="Request Invite"/>
 </form>
