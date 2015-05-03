@@ -35,6 +35,8 @@
 // Pear Mail Library
 require_once "/usr/share/php/Mail.php";
 
+include "private.php";
+
 // define variables and set to empty values
 $fname = $lname = $email = $IP = $emailErr = "";
 
@@ -65,8 +67,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         'host' => 'ssl://smtp.gmail.com',
         'port' => '465',
         'auth' => true,
-        'username' => 'support@frequenciespro.com',
-        'password' => 'bsTSISJC1709@'
+        'username' => $private_username,
+        'password' => $private_password
 		));
 		$mail = $smtp->send($to, $headers, $body);
 		
