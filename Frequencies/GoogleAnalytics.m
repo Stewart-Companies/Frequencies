@@ -17,6 +17,10 @@
 #else
     NSLog(@"USING ANALYTICS.");
 #endif
+
+	id<GAITracker> tracker = [[GAI sharedInstance] defaultTracker];
+	
+	tracker.allowIDFACollection = YES;
     
     // Optional: automatically send uncaught exceptions to Google Analytics.
     [GAI sharedInstance].trackUncaughtExceptions = YES;
@@ -24,6 +28,9 @@
     [GAI sharedInstance].dispatchInterval = 10;
     // Optional: set debug to YES for extra debugging information.
     [[GAI sharedInstance].logger setLogLevel:kGAILogLevelNone];
+	
+	//[[GAI sharedInstance] defaultTracker].allow
+	
     // Create tracker instance.
     
     NSString *trackingID;
