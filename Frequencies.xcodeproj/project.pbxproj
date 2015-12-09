@@ -20,7 +20,7 @@
 		0460C4881C188BAF00DF67E3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		0460C48A1C188BC100DF67E3 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0460C48C1C188BD600DF67E3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04D14F651C188A510031196C /* FrequenciesPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrequenciesPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D14F651C188A510031196C /* Frequencies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Frequencies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D14F681C188A510031196C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04D14F6A1C188A510031196C /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		04D14F6C1C188A510031196C /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
@@ -73,7 +73,7 @@
 		04D14F661C188A510031196C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				04D14F651C188A510031196C /* FrequenciesPro.app */,
+				04D14F651C188A510031196C /* Frequencies.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,9 +81,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		04D14F641C188A510031196C /* FrequenciesPro */ = {
+		04D14F641C188A510031196C /* Frequencies */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 04D14F7B1C188A510031196C /* Build configuration list for PBXNativeTarget "FrequenciesPro" */;
+			buildConfigurationList = 04D14F7B1C188A510031196C /* Build configuration list for PBXNativeTarget "Frequencies" */;
 			buildPhases = (
 				04D14F611C188A510031196C /* Sources */,
 				04D14F621C188A510031196C /* Frameworks */,
@@ -93,9 +93,9 @@
 			);
 			dependencies = (
 			);
-			name = FrequenciesPro;
+			name = Frequencies;
 			productName = FrequenciesPro;
-			productReference = 04D14F651C188A510031196C /* FrequenciesPro.app */;
+			productReference = 04D14F651C188A510031196C /* Frequencies.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -113,7 +113,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 04D14F601C188A510031196C /* Build configuration list for PBXProject "FrequenciesPro" */;
+			buildConfigurationList = 04D14F601C188A510031196C /* Build configuration list for PBXProject "Frequencies" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -126,7 +126,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				04D14F641C188A510031196C /* FrequenciesPro */,
+				04D14F641C188A510031196C /* Frequencies */,
 			);
 		};
 /* End PBXProject section */
@@ -250,7 +250,7 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.CoreyStewart.FrequenciesPro;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Frequencies;
 			};
 			name = Debug;
 		};
@@ -262,14 +262,14 @@
 				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.CoreyStewart.FrequenciesPro;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Frequencies;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		04D14F601C188A510031196C /* Build configuration list for PBXProject "FrequenciesPro" */ = {
+		04D14F601C188A510031196C /* Build configuration list for PBXProject "Frequencies" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04D14F791C188A510031196C /* Debug */,
@@ -278,7 +278,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		04D14F7B1C188A510031196C /* Build configuration list for PBXNativeTarget "FrequenciesPro" */ = {
+		04D14F7B1C188A510031196C /* Build configuration list for PBXNativeTarget "Frequencies" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				04D14F7C1C188A510031196C /* Debug */,
